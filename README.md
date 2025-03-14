@@ -21,6 +21,18 @@ brew install stow     # MacOS
 brew install zsh  # MacOS
 ```
 
+**_eza_**: A modern replacement for ls.
+
+```sh
+brew install eza  # MacOS
+```
+
+**_zxodie_**: zoxide is a smarter cd command, inspired by z and autojump.
+
+```sh
+brew install zoxide  # MacOS
+```
+
 ## Clone repository
 
 **_Clone_**: Clone this repository to ~/$HOME

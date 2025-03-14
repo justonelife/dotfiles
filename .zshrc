@@ -114,3 +114,5 @@ export NVM_DIR="$HOME/.nvm"
 # Load Angular CLI autocompletion.
 source <(ng completion script)
 eval "$(zoxide init --cmd cd zsh)"
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
