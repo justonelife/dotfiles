@@ -10,7 +10,6 @@ return {
         "rafamadriz/friendly-snippets",
         config = function()
           require("luasnip.loaders.from_vscode").lazy_load()
-          -- require("luasnip.loaders.from_vscode").lazy_load({ paths = { vim.fn.stdpath("config") .. "/snippets" } })
           require("luasnip").filetype_extend("typescript", { "angular" })
         end,
       },
@@ -18,6 +17,15 @@ return {
     opts = {
       history = true,
       delete_check_events = "TextChanged",
+    },
+  }, -- blink.cmp integration
+  {
+    "saghen/blink.cmp",
+    optional = true,
+    opts = {
+      snippets = {
+        preset = "luasnip",
+      },
     },
   },
 }
