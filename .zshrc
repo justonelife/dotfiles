@@ -115,4 +115,9 @@ export NVM_DIR="$HOME/.nvm"
 source <(ng completion script)
 eval "$(zoxide init --cmd cd zsh)"
 
+# Keybindings
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+
+# History
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
