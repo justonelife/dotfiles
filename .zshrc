@@ -102,6 +102,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# nvim config
+alias nvimconfig='nvim ~/.config/nvim'
+
+# lazydocker
+alias lzd='lazydocker'
+
+# eza
 alias ls='eza --icons'
 alias ll='eza -lg --icons'
 alias la='eza -lag --icons'
