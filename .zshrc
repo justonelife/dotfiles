@@ -104,7 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # nvim config
-alias nvimconfig='nvim ~/.config/nvim'
+alias v='nvim .'
+alias vconfig='nvim ~/.config/nvim'
 
 # lazydocker
 alias lzd='lazydocker'
