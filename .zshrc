@@ -121,7 +121,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+# source <(ng completion script) # Comment because not all version of node have angular installed
 eval "$(zoxide init --cmd cd zsh)"
 
 # Keybindings
@@ -130,3 +130,17 @@ bindkey '^n' history-search-forward
 
 # History
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
+
+# Added by Antigravity
+export PATH="/Users/hys/.antigravity/antigravity/bin:$PATH"
+
+# Claude code config with deepseek API
+export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export ANTHROPIC_AUTH_TOKEN=sk-c3233f82152d454698ff82d23601fa9f
+export API_TIMEOUT_MS=600000
+export ANTHROPIC_MODEL=deepseek-chat
+export ANTHROPIC_SMALL_FAST_MODEL=deepseek-chat
+export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
+
+# Added by Antigravity
+export PATH="/Users/hys/.antigravity/antigravity/bin:$PATH"
