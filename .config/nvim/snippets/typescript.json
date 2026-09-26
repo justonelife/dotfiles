@@ -1,0 +1,21 @@
+{
+  "Angular Standalone Component": {
+    "prefix": "ng-component-s",
+    "body": [
+      "import { Component, input } from '@angular/core';",
+      "",
+      "@Component({",
+      "  selector: 'app-${1:component-name}',",
+      "  standalone: true,",
+      "  imports: [],",
+      "  template: `",
+      "    <p>${1:component-name} works!</p>",
+      "  `",
+      "})",
+      "export class ${2:ComponentName}Component {",
+      "  ${3:data} = input.required<${4:string}>();",
+      "}"
+    ],
+    "description": "Creates a new standalone Angular component with a required signal input."
+  }
+}
